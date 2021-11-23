@@ -1,4 +1,4 @@
-SELECT Employee.FirstName, Employee.LastName, InvoiceId
+SELECT Employee.FirstName || " " || Employee.LastName as SalesAgent, InvoiceId
 FROM Invoice
 INNER JOIN Customer 
     on Invoice.CustomerId = Customer.CustomerId

@@ -1,3 +1,3 @@
 SELECT COUNT(*), BillingCountry
 FROM Invoice
-GROUP BY BillingCountry
+GROUP BY BillingCountry;
